@@ -8,17 +8,12 @@ setup(
     author='Imukr',
     author_email='I0979887766@gmail.com',
     license="MIT",
-    url=URL,
-    packages=find_packages(),
-    package_data=find_package_data(PACKAGE, only_in_packages=False),
+    url="https://github.com/imukr/clean_folder.git",
+    packages = find_packages(),
     classifiers=[
-        "Development Status :: 3 - Alpha",
-        "Environment :: Web Environment",
-        "Intended Audience :: Developers",
-        "License :: OSI Approved :: BSD License",
+        "License :: MIT :: approved",
         "Operating System :: OS Independent",
-        "Programming Language :: Python",
-        "Framework :: Django",
+        "Programming Language :: Python :: 3",
     ],
-    zip_safe=False,
+    entry_points = {"console_scripts": ["clean-folder = clean_folder.main:main"]}
 )
