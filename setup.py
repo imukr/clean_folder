@@ -1,6 +1,6 @@
 from setuptools import setup, find_namespace_packages
 setup(
-    name='Clean_folder',
+    name='Clean_folder_Imukr',
     version=1.00,
     description='Cleaning_folder_script by Python',
     long_description="README.md",
