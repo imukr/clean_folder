@@ -1,5 +1,4 @@
-from setuptools import setup, find_packages
-
+from setuptools import setup, find_namespace_packages
 setup(
     name='Clean_folder',
     version=1.00,
@@ -9,7 +8,7 @@ setup(
     author_email='I0979887766@gmail.com',
     license="MIT",
     url="https://github.com/imukr/clean_folder.git",
-    packages = find_packages(),
+    packages = find_namespace_packages(),
     classifiers=[
         "License :: MIT :: approved",
         "Operating System :: OS Independent",
