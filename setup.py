@@ -9,10 +9,5 @@ setup(
     license="MIT",
     url="https://github.com/imukr/clean_folder.git",
     packages = find_namespace_packages(),
-    classifiers=[
-        "License :: MIT :: approved",
-        "Operating System :: OS Independent",
-        "Programming Language :: Python :: 3",
-    ],
     entry_points = {"console_scripts": ["clean-folder = clean_folder.main:main"]}
 )
